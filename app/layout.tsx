@@ -6,6 +6,8 @@ import SupabaseProvider from '@/providers/SupabaseProvider'
 import UserProvider from '@/providers/UserProvider'
 import ModalProvider from '@/providers/ModalProvider'
 import ToasterProvider from '@/providers/ToasterProvider'
+import getSongsByUserId from '@/actions/getSongsByUserId'
+import { Song } from "@/types";
 
 const font = Figtree({ subsets: ['latin'] })
 
@@ -14,11 +16,17 @@ export const metadata: Metadata = {
   description: 'A selection of Brazilian Psychedelic Music by Sabrina Bertol',
 }
 
-export default function RootLayout({
+export const revalidate = 0;
+
+export default async function RootLayout({
   children,
+  songs
 }: {
-  children: React.ReactNode
+  children: React.ReactNode,
+  songs: Song[];
 }) {
+  const userSongs = await getSongsByUserId();
+
   return (
     <html lang="en">
       <body className={font.className}>
@@ -26,7 +34,7 @@ export default function RootLayout({
         <SupabaseProvider>
           <UserProvider>
             <ModalProvider />
-            <Sidebar>{children}</Sidebar>
+            <Sidebar songs={songs}>{children}</Sidebar>
           </UserProvider>
         </SupabaseProvider>
       </body>
