@@ -4,6 +4,7 @@ import { twMerge } from "tailwind-merge";
 interface ButtonProps
 extends React.ButtonHTMLAttributes<HTMLButtonElement> {}
 
+// eslint-disable-next-line react/display-name
 const Button = forwardRef<HTMLButtonElement, ButtonProps>(({
     className,
     children,
