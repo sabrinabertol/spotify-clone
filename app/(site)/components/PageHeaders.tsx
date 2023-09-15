@@ -33,11 +33,12 @@ const PageHeaders = ({
         <Header>
         <div className="mb-2">
             <h1 className="text-white text-3xl font-semibold">
-              A collective playlist of Brazillian Psychedelic music
+              A collective playlist of Brazilian Psychedelic music
             </h1>
             <h2 className="text-gray-500 text-xl">
               Sign up today and listen to the best of Brazil's psychedelic music.
-              <br></br>Our content is curated and powered by the community. 
+            </h2>
+            <h2 className="text-gray-500 text-xl">Our content is curated and powered by the community. 
             </h2>
           </div>
         </Header>

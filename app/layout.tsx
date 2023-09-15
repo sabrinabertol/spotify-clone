@@ -13,7 +13,7 @@ const font = Figtree({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Spotifake',
-  description: 'A collective playlist of Brazillian Psychedelic music',
+  description: 'A collective playlist of Brazilian Psychedelic music',
 }
 
 export const revalidate = 0;
