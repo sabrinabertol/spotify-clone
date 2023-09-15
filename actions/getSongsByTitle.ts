@@ -3,7 +3,7 @@ import { cookies } from "next/headers";
 import  getSongs  from "./getSongs";
 import { Song } from "@/types";
 
-const getSongsByTitle = async (title: sting): Promise<Song[]> => {
+const getSongsByTitle = async (title: string): Promise<Song[]> => {
   const supabase = createServerComponentClient({
     cookies: cookies
   });
