@@ -38,10 +38,12 @@ const Modal: React.FC<ModalProps> = ({
                 left-[50%]
                 max-h-full
                 h-full
+                md:left-[30%]
+                md:top-[10%]
                 md:h-auto
-                md:max-h-[85vh]
+                md:max-h-full
                 w-full
-                md:w-[90vw]
+                md:w-[50vw]
                 md:max-w-[450px]
                 traslate-x-[-50%]
                 traslate-y-[-50%]
