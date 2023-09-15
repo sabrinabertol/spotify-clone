@@ -36,7 +36,7 @@ const PageHeaders = ({
               A collective playlist of Brazilian Psychedelic music
             </h1>
             <h2 className="text-gray-500 text-xl">
-              Sign up today and listen to the best of Brazil's psychedelic music.
+              Sign up today and listen to the best of Brazil&apos;s psychedelic music.
             </h2>
             <h2 className="text-gray-500 text-xl">Our content is curated and powered by the community. 
             </h2>
