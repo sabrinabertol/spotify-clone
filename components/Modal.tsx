@@ -30,27 +30,25 @@ const Modal: React.FC<ModalProps> = ({
                 fixed
                 inset-0"/>
                 <Dialog.Content className="
-                fixed
-                drop-shadow-md
-                border
-                border-neutral-700
-                top-[50%]
-                left-[50%]
-                max-h-full
-                h-full
-                md:left-[30%]
-                md:top-[10%]
-                md:h-auto
-                md:max-h-full
-                w-full
-                md:w-[50vw]
-                md:max-w-[450px]
-                traslate-x-[-50%]
-                traslate-y-[-50%]
-                rounded-md
-                bg-neutral-800
-                p-[25px]
-                pocus:outline-none
+                fixed 
+                drop-shadow-md 
+                border 
+                border-neutral-700 
+                top-[50%] 
+                left-[50%] 
+                max-h-full 
+                h-full 
+                md:h-auto 
+                md:max-h-[85vh] 
+                w-full 
+                md:w-[90vw] 
+                md:max-w-[450px] 
+                translate-x-[-50%] 
+                translate-y-[-50%] 
+                rounded-md 
+                bg-neutral-800 
+                p-[25px] 
+                focus:outline-none
                 ">
                     <Dialog.Title
                     className="
