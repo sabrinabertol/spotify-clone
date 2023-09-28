@@ -37,14 +37,13 @@ Sign up today and listen to the best of Brazil's psychedelic music. Our content 
 
 
 ## Technologies Used
-- Next.Js: 
+- Next.Js: A React framework that provides server-side rendering and static site generation for building web applications.
 - React.js: A JavaScript library for building user interfaces.
-- Supabase: 
+- Supabase: An open source platform that provides database, authentication, file storage, APIs, and other backend services.
 - TailwindCSS: A CSS framework for creating responsive and mobile-first designs.
 - TypeScript: A type-based programming language for adding interactivity to web applications.
 - HTML5 & CSS3: Markup and styling languages for building web pages.
-- Git: A version control system for tracking changes and collaborating on projects.
-- Vercel: 
+- Vercel: A platform for deploying and scaling web applications and sites with minimal configuration.
 
 ## Installation
 To run this project locally, follow these steps:
@@ -64,7 +63,7 @@ SUPABASE_SERVICE_ROLE_KEY=
 8. Open your browser and visit: `http://localhost:3000`
 
 ## Usage
-After installing and running the project locally, you can navigate through the page. Without authentication, you will be able to see the songs in your catalog and search for specific ones. To listen or favorite songs, you need to authenticate using either an e-mail or your github account. You will also be able to upload new songs, but our content is curated, so your uploads may be excluded from the platform if they don't follow it's purpose. 
+After installing and running the project locally, you can navigate through SpotiFake. Without authentication, you will be able to see the songs in our catalog and search for specific ones. To listen or favorite songs, you need to authenticate using either an e-mail or your github account. You will also be able to upload new songs, but our content is curated, so your uploads may be excluded from the platform if they don't follow it's purpose. 
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
