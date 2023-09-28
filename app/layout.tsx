@@ -12,7 +12,7 @@ import Player from '@/components/Player'
 const font = Figtree({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Spotifake',
+  title: 'SpotiFake',
   description: 'A collective playlist of Brazilian Psychedelic music',
 }
 

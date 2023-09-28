@@ -1,34 +1,82 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a name="readme-top"></a>
 
-## Getting Started
+<img src="./public/images/logo.png" alt="Logo" width="70" height="70">
 
-First, run the development server:
+# SpotiFake - a Full Stack Spotify Clone
+A collective playlist of Brazilian Psychedelic music.
+Sign up today and listen to the best of Brazil's psychedelic music. Our content is curated and powered by the community.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+### [Live Website](https://sabrinabertol.github.io/spotify-clone/)
+## Some Images:
+<img width="450px;" src="./public/images/home.png"/>
+<img width="450px;" src="./public/images/search.png"/>
+<img width="450px;" src="./public/images/likedsongs.png"/>
+
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+
+## Introduction
+*SpotiFake* is a full stack Spotify clone built with Next.js 13.4 App Router: React, Tailwind, Supabase and PostgreSQL and deployed in Vercel. 
+
+## Features
+- Tailwind animations and transition effects
+- Full responsiveness for all devices
+- Search songs
+- Play audios
+- Favorite songs
+- Liked Songs playlist 
+- File and image upload using Supabase storage
+- Credential authentication with Supabase
+- Github authentication integration
+
+
+## Technologies Used
+- Next.Js: 
+- React.js: A JavaScript library for building user interfaces.
+- Supabase: 
+- TailwindCSS: A CSS framework for creating responsive and mobile-first designs.
+- TypeScript: A type-based programming language for adding interactivity to web applications.
+- HTML5 & CSS3: Markup and styling languages for building web pages.
+- Git: A version control system for tracking changes and collaborating on projects.
+- Vercel: 
+
+## Installation
+To run this project locally, follow these steps:
+
+1. Get a free API Key in [Supabase](https://rapidapi.com/)
+2. Clone the repository: `git clone https://sabrinabertol.github.io/spotify-clone.git`
+3. Navigate to the project directory: `cd spotify-clone`
+4. Enter your Supabase keys in the .env.local file: 
 ```
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+SUPABASE_SERVICE_ROLE_KEY=
+```
+5. Install the dependencies: `npm install`
+6. Use `database.sql` file, create songs and liked_songs table (you can check the [tutorial](https://www.codewithantonio.com/projects/music-platform) I followed to create this project)
+7. Start the development server: `npm run dev`
+8. Open your browser and visit: `http://localhost:3000`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
+After installing and running the project locally, you can navigate through the page. Without authentication, you will be able to see the songs in your catalog and search for specific ones. To listen or favorite songs, you need to authenticate using either an e-mail or your github account. You will also be able to upload new songs, but our content is curated, so your uploads may be excluded from the platform if they don't follow it's purpose. 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix: `git checkout -b my-feature`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin my-feature`
+5. Open a pull request.
 
-## Learn More
+## Acknowledgments
 
-To learn more about Next.js, take a look at the following resources:
+* [Full Stack Spotify Clone](https://www.codewithantonio.com/projects/music-platform) by CodeWithAntonio
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p align="right"><a href="#readme-top">back to top</a></p>
